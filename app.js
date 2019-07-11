@@ -12,3 +12,12 @@ function updateResult(){
     function updateResult(){
         result.textContent = learnInput.value;
         }
+
+        function myFunction() {
+            var x = document.getElementById("myStory");
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "none";
+            }
+          }

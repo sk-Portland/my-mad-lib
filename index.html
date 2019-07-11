@@ -24,14 +24,26 @@
                     <input type="learn">
                     <br>
                   </form>
+ <!--This is my button-->
+    
+ <button type="button" onclick="myFunction()">Press to see the mad lib story.</button>
 
-
+  <!--This is my script to go from hidden to visible-->
+ <script>
+    function myFunction() {
+      document.getElementById("myStory").style.hidden = "hidden";
+    }
+    
+    
+    </script>
+    <div class = "myStory">
             <p>Once upon a time, there was  <span id="noun"></span>
                 This <span id="noun"></span> was very <span id="adjective"></span>
                 It also found it stressful to  <span id="noun"></span> in 1 hour!
             </p>
 
-
+</div>
+<link rel="stylesheet" href="styles.css">
 
 </body>
 </html>
