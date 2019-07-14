@@ -1,25 +1,21 @@
-const nounInput = document.getElementById('noun1input');
-const adjectiveInput = document.getElementById('adjective1input');
-const learnInput = document.getElementById('learn1input');
-
-const nounResult = document.getElementById('noun1Result');
-const noun2Result = document.getElementById('noun1Result');
-const adjectiveResult = document.getElementById('adjective1Result');
-const learnResult = document.getElementById('learn1Result');
-
-
-
 // Action to take on user event
-function updateResult(){
-nounResult.textContent = nounInput.value}
+function updateResult() {
 
-function updateResult(){
-  noun2Result.textContent = nounInput.value}
 
-  function updateResult(){
-    adjectiveResult.textcontent = adjectiveInput.value}
+const nounInput = document.getElementById('nounInput');
+const adjectiveInput = document.getElementById('adjectiveInput');
+const learnInput = document.getElementById('learnInput');
 
-    function updateResult(){
-      learnResult.textcontent = learnInput.value}
+const nounResult = document.getElementById('nounResult');
+const adjectiveResult = document.getElementById('adjectiveResult');
+const learnResult = document.getElementById('learnResult');
+
+document.getElementById("myStory").setAttribute('style', 'visibility: visible');
+
+nounResult.innerText = nounInput.value;
+adjectiveResult.innerText = adjectiveInput.value;
+learnResult.innerText = learnInput.value;
+
+}
 
 

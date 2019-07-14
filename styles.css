@@ -1,6 +1,9 @@
 
-display: hidden
 
-.myStory {ClassList.remove ('myStory')
+#myStory {
+
+   visibility: hidden;
+
 
 }
+

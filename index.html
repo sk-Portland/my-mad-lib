@@ -15,31 +15,28 @@
 
             <form>
                     Noun:<br>
-                    <input id="noun1input">
+                    <input id="nounInput">
                     <br>
                     Adjective:<br>
-                    <input id="adjective1input"">
+                    <input id="adjectiveInput">
                     <br>
                     Name one thing you learned in class today:<br>
-                    <input id="learn1input">
+                    <input id="learnInput">
                     <br>
                   </form>
  <!--This is my button-->
     
- <button type="button" onclick="myFunction()">Press to see the mad lib story.</button>
+ <button type="button" onclick="updateResult()">Press to see the mad lib story.</button>
 
   <!--This is my script to go from hidden to visible-->
- <script>
-    function myFunction() {
-      document.getElementById("myStory").style.hidden = "hidden";
-    }
+
+   
     
     
-    </script>
-    <div class = "myStory" display = hidden>
-            <p>Once upon a time, there was  <span id="noun1Result"></span>
-                This <span id="noun2Result"></span> was very <span id="adjective1Result"></span>
-                It also found it stressful to  <span id="learn1Result"></span> in 1 hour!
+    <div id="myStory">
+            <p>Once upon a time, there was  
+                This <span id="nounResult"></span> was very <span id="adjectiveResult"></span>
+                It also found it stressful to  <span id="learnResult"></span> in 1 hour!
             </p>
 
 </div>
